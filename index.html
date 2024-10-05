@@ -20,7 +20,6 @@
     <div class="modal-content rounded-4 shadow">
       <div class="modal-header p-5 pb-4 border-bottom-0">
         <h1 class="fw-bold mb-0 fs-2">Add New Post</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
      
   
@@ -30,7 +29,7 @@
             <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="Enter Title">
             <label for="floatingInput">Title</label>
           </div>
-          <div><label for="textArea">Description</label></div>
+          
           <div class="input-group mb-3">
             <textarea class="form-control" id="textArea" aria-label="With textarea" placeholder="Enter Description"></textarea>
           </div>
@@ -38,15 +37,15 @@
           <hr class="my-4">
           <div class="dropdown">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="bg()">
-             Back-Grounds
+             Backgrounds
             </a>
           
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="images/1.jfif">bg1</a></li>
-              <li><a class="dropdown-item" href="images/2.jfif">bg2</a></li>
-              <li><a class="dropdown-item" href="images/3.jfif">bg3</a></li>
-              <li><a class="dropdown-item" href="images/4.jfif">bg4</a></li>
-              <li><a class="dropdown-item" href="images/5.jfif">bg5</a></li>
+              <li><a class="dropdown-item" href="images/masud-merzaye-OnJj_tfEDPE-unsplash.jpg">bg-1</a></li>
+              <li><a class="dropdown-item" href="images/maxim-berg-g1FlJUOIUXY-unsplash.jpg">bg-2</a></li>
+              <li><a class="dropdown-item" href="images/ruan-richard-rodrigues-sT1sEvYUjwU-unsplash.jpg">bg-3</a></li>
+              <li><a class="dropdown-item" href="images/clark-van-der-beken-MQzSZ5BkjAg-unsplash.jpg">bg-4</a></li>
+              <li><a class="dropdown-item" href="images/masud-merzaye-Ka44cQR6aJg-unsplash.jpg">bg-5</a></li>
             </ul>
           </div>
           
@@ -65,7 +64,6 @@
     <div class="modal-content rounded-4 shadow" id="modalDisplayPost" >
       <div class="modal-header p-5 pb-4 border-bottom-0" >
         <h1 class="fw-bold mb-0 fs-2">POST</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
   
       <div class="modal-body p-5 pt-0" id="divs">
@@ -80,6 +78,7 @@
 </div>
     
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="app.js"></script>
 </body>
