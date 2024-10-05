@@ -1,0 +1,18 @@
+#deletePost{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size:19px;
+}
+#editPost{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size:19px;
+}
+.dropdown{
+    padding: 10px;
+    
+}
